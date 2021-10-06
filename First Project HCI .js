@@ -1,5 +1,5 @@
 
-
+window.onload = (event) =>
 	
 let courses = [
     {"Line":81,"Department":"BUS","Number":344,"Section":1,"Title":"MANAGEMENT OF INFORMATION SYSTEMS","Faculty":"Richards, Gordon P.","Openings":2,"Capacity":30,"Status":"Open","Day":"MWF","Time":"1:25-2:20 PM","Campus":" Main Campus","Building":" Science and Engineering","Room":" SE 341 Computer Science Lab","Credits":3,"Start":"8\/30\/2021","End":"12\/17\/2021\r\n"}
@@ -22,6 +22,8 @@ Function generateTableHead(table,data) {
 	th.appendChild(text);
 	row.appendChild(th);
 	}
+	
+    console.log('The page is loaded. We are in the console');
 }
 function generateTable(table,data) {
 	for (let element of data) {
