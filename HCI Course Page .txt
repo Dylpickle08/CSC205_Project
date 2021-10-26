@@ -1,0 +1,25 @@
+ <!DOCTYPE=html>
+    <html>
+        <head>
+            <title>HCI Course Page</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="css/custom.css">
+        </head>
+		
+    <img id="logo-image" src="images/geneva_logo.png" alt="Geneva Logo">
+
+    <body onload="loadDetails()">
+        <h1 id="Title">HCI DESIGN & PROGRAMMING</h1>
+        <h2 id="code">CSC 205-01 is taught by Scott Madeira in SE 341 on Main Campus</h2>
+        <h3 id="info">Human Computer Interaction design and implementation in an event-driven programming language. Concepts include issues of graphical user interface design, event processing, integration of a database system, exception handling, and simple screen graphics</h3>
+		<h4 id="time">This class meets Monday, Wednesday and Friday from 11:15 to 12:00</h4>
+        <h2 id="classes"></h2>
+        <h2 id="positions"></h2>
+        <table id="schedTab" border="0" width="70%"> </table>
+        <div id="fill"></div><p id="fillTXT"></p>
+        <!-- Add bootstrap and custom JavaScript files here -->
+         <script type="text/javascript" src="js/main.js"></script>
+
+    </body>
+    
+    </html>
